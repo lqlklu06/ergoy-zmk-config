@@ -1,0 +1,14 @@
+file_format: "1"
+id: ergoy
+name: ErgoY
+type: shield
+url: https://github.com/lqlklu/ergoy-keyboard
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder
+siblings:
+  - ergoy_left
+  - ergoy_right
