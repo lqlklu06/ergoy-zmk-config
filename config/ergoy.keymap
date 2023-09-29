@@ -15,11 +15,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE      &kp N1     &kp N2     &kp N3            &kp N4  &kp N5     &kp C_MUTE           &kp PSCRN             &kp N6          &kp N7  &kp N8     &kp N9    &kp N0     &kp DEL
-&mt LALT TAB   &kp Q      &kp W      &kp E             &kp R   &kp T      &kp SQT              &kp NON_US_BACKSLASH  &kp Y           &kp U   &kp I      &kp O     &kp P      &kp RALT
-&mt LCTRL ESC  &kp A      &kp S      &kp D             &kp F   &kp G      &lt 1 UP_ARROW       &lt 2 DOWN            &kp H           &kp J   &kp K      &kp L     &kp SEMI   &kp RCTRL
-&kp LSHFT      &kp Z      &kp X      &kp C             &kp V   &kp B      &mt LGUI LEFT_ARROW  &mt RGUI RIGHT        &kp N           &kp M   &kp COMMA  &kp DOT   &kp SLASH  &kp RSHIFT
-&kp LGUI       &kp MINUS  &kp EQUAL  &kp SINGLE_QUOTE  &mo 1   &kp SPACE  &mt LGUI ESC         &kp BACKSPACE         &mt RGUI ENTER  &mo 2   &kp BSLH   &kp LBKT  &kp RBKT   &kp RGUI
+&kp GRAVE      &kp N1     &kp N2     &kp N3            &kp N4  &kp N5     &kp C_MUTE           &kp PSCRN       &kp N6          &kp N7  &kp N8     &kp N9    &kp N0     &kp DEL
+&mt LALT TAB   &kp Q      &kp W      &kp E             &kp R   &kp T      &kp SQT              &kp BSLH        &kp Y           &kp U   &kp I      &kp O     &kp P      &kp RALT
+&mt LCTRL ESC  &kp A      &kp S      &kp D             &kp F   &kp G      &lt 1 UP_ARROW       &lt 2 DOWN      &kp H           &kp J   &kp K      &kp L     &kp SEMI   &kp RCTRL
+&kp LSHFT      &kp Z      &kp X      &kp C             &kp V   &kp B      &mt LGUI LEFT_ARROW  &mt RGUI RIGHT  &kp N           &kp M   &kp COMMA  &kp DOT   &kp SLASH  &kp RSHIFT
+&kp LGUI       &kp MINUS  &kp EQUAL  &kp SINGLE_QUOTE  &mo 1   &kp SPACE  &mt LGUI ESC         &kp BACKSPACE   &mt RGUI ENTER  &mo 2   &kp BSLH   &kp LBKT  &kp RBKT   &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_DN PAGE_UP>;
